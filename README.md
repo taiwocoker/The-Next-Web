@@ -1,8 +1,8 @@
 # Project Name
 
-[Smashing Magazine UX Heatmap](https://thenextweb.com/)
+[A Clone of The Next Web Page](https://thenextweb.com/)
 
-![screenshot](./screenshot.png)
+![screenshot]()
 
 HTML & CSS Heatmap
 
