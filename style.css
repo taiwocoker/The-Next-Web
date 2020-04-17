@@ -90,7 +90,7 @@ a.nav-links-1 {
     padding: 23px 12px;
     width: 106px;
     display: none;
-  }
+}
 
 a.nav-logo-a {
     background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
@@ -98,12 +98,11 @@ a.nav-logo-a {
     padding: 0 35px;
 }
 
-a.nav-logo {
-    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
-    background-repeat: no-repeat;
-    padding: 0 35px;
-}
-
+.section-nav-logo {
+    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+    width: 40%;
+    height: 100%;
+  }
 
 section.section-1 {
     display: grid;
@@ -112,7 +111,7 @@ section.section-1 {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
     min-height: 60vh;
-    padding: 10px;
+    padding: 3px;
 }
 
 .section-1-1 {
@@ -149,14 +148,53 @@ section.section-1 {
     background-position: 50% 20%;
 }
 
-.section-1-1-content {
-    display: flex;
-    justify-content: flex-end;
-    color: #fff;
-    padding: 10px;
+.section-nav-logo {
+    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    opacity: 0.8;
+    padding: 30px;
+    margin: 10px;
 }
 
+.section-1-content {
+    position: relative;
+    top: 172px;
+    padding: 20px;
+}
 
+a.section-1-1-p-1 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+}
 
+a.section-1-1-title-1 {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.section-1-1-icons {
+    display: flex;
+    color: #9d9d9d;
+    padding: 10px 0 10px 0;
+}
+
+a.section-1-1-icons-1 {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+li.section-1-1-li {
+    padding: 5px;
+}
+
+.section-1-content-1 {
+    padding: 10px;
+    font-size: 14px;
+}
 
   /* Main Style End */
