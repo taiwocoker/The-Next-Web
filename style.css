@@ -58,6 +58,7 @@ p.nav-bar-links-3 {
     font-size: 15px;
     font-family: serif;
     font-weight: 200;
+    cursor: pointer;
 }
 
 ul.nav-bar-1,
@@ -77,11 +78,22 @@ li.nav-bar-list {
     padding: 5px;
 }
 
-a.nav-links-1 {
+a.nav-links-1, 
+a.nav-links-2 {
     color: #9d9d9d;
     text-decoration: none;
     font-size: 15px;
     font-family: sans-serif;
+}
+
+a.nav-links-1:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+a.nav-links-2:hover {
+    color: #000;
+    cursor: pointer;
 }
 
 .nav-logo {
@@ -195,6 +207,37 @@ li.section-1-1-li {
 .section-1-content-1 {
     padding: 10px;
     font-size: 14px;
+}
+
+.section-2-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+}
+
+h2.section-2-main-title-1 {
+    padding: 10px 0 54px 0;
+    font-size: 26px;
+}
+
+ul.section-2-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 8px;
+}
+
+.section-2-img img {
+    width: 90%;
+}
+
+li.section-2-1 {
+    padding: 8px;
+}
+
+.section-2-description {
+    padding: 5px;
 }
 
   /* Main Style End */
