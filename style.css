@@ -255,7 +255,8 @@ a.section-2-description-links {
 }
 
 a.section-2-links-2,
-span.section-2-span {
+span.section-2-span,
+span.section-3-container-span {
     text-decoration: none;
     color: #9d9d9d;
 }
@@ -275,6 +276,8 @@ header.third-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    position: relative;
+    bottom: -28px;
 }
 
 ul.section-3-title {
@@ -298,6 +301,58 @@ a#more {
     line-height: 1px;
     display: inline-block;
 }
+
+.credit-kudos {
+    width: 64%;
+    background: #f42;
+    padding: 10.66px 16px 10.66px 84px;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .section-3-container-1-1 {
+    padding: 10px 16px 10px 84px;
+    background: rgba(255, 68, 34, 0.08);
+    margin: 0;
+    height: 38px;
+  }
+
+  .section-3-item {
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%%;
+  }
+  
+  .section-3-item img {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    margin: 10px;
+    position: relative;
+    top: -80px;
+    left: -81px;
+  }
+  
+  .section-3-content {
+    background-color: rgb(255, 250, 248);
+    border-bottom: 1px solid rgb(255, 205, 194);
+    padding: 20px;
+  }
+  
+  .section-3-content-ul-li {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+    padding: 7px 0;
+  }
+  
+  .section-3-content-1 {
+    background-color: rgb(255, 250, 248);
+    padding: 20px;
+  }
 
 
 
