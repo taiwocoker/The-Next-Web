@@ -552,30 +552,38 @@ ul.footer-list-1,
 ul.footer-list-2 {
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 40px 0;
     background: #4d4d4d;
 }
 
 a.footer-list-link {
     color: #fff;
-    /* padding: 30px; */
     background-color: #6d6d6d;
     border-radius: 50%;
+    padding: 15px;
+    margin: 0 14px;
+    
 }
 
 a.footer-link-2 {
     color: #9d9d9d;
-    padding: 10px;
+    padding: 7px;
+    font-family: Arial;
+    font-weight: bold;
 }
 
 .footer-legal {
     text-align: center;
     background-color: #2d2d2d;
-    padding: 25px 0;
+    padding: 35px 0;
     color: #9d9d9d;
 }
 
 .footer-legal-logo {
     height: 10px;
     width: 48px;
+}
+
+b.love {
+    color: #ff0000;
 }
