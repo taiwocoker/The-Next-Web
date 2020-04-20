@@ -219,7 +219,8 @@ li.section-3-list {
 }
 
 .section-2-main-container,
-.section-3-main-container {
+.section-3-main-container,
+section.section-4-container {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -320,7 +321,7 @@ a#more {
   .section-3-item {
     width: 25%;
     max-width: 25%;
-    min-width: 25%%;
+    min-width: 25%;
   }
   
   .section-3-item img {
