@@ -21,6 +21,11 @@ body {
     position: relative;
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
    
   /** General Style End **/
 
@@ -203,7 +208,8 @@ a.section-1-1-icons-1 {
 li.section-1-1-li,
 p.section-2-content,
 .section-2-description,
-li.section-2-1 {
+li.section-2-1,
+li.section-3-list {
     padding: 5px;
 }
 
@@ -212,7 +218,8 @@ li.section-2-1 {
     font-size: 14px;
 }
 
-.section-2-main-container {
+.section-2-main-container,
+.section-3-main-container {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -225,7 +232,8 @@ h2.section-2-main-title-1 {
     font-size: 26px;
 }
 
-ul.section-2-container {
+ul.section-2-container,
+.section-3-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 5px;
@@ -241,6 +249,7 @@ ul.section-2-container {
 
 a.section-2-description-links {
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     color: #000;
     font-weight: 700;
 }
@@ -254,8 +263,40 @@ span.section-2-span {
 a.section-2-links {
     text-decoration: none;
     color: #ff3300;
-    font-family: spectral;
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
+}
+
+i.fas.fa-greater-than {
+    font-size: 16px;
+}
+
+header.third-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul.section-3-title {
+    display: flex;
+}
+
+a.section-3-title-links {
+    color: #ff0000;
+}
+
+a#add,
+a#get {
+    border-right: 1px solid #ff0000;
+    padding: 10px;
+    line-height: 1px;
+    display: inline-block;
+}
+
+a#more {
+    padding: 10px;
+    line-height: 1px;
+    display: inline-block;
 }
 
 
