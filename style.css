@@ -53,6 +53,20 @@ a {
     color: #c7c7c7;
 }
 
+.header-flex,
+.header-flex-1 {
+    width: 100%;
+}
+
+ header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+} 
+
 .third-nav-bar {
     width: 100%;
     background-color: #fd3;
@@ -109,6 +123,10 @@ a.nav-links-2:hover {
     display: none;
 }
 
+i.fa.fa-bars {
+    display: none;
+}
+
 a.nav-logo-a {
     background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
     background-repeat: no-repeat;
@@ -123,6 +141,7 @@ a.nav-logo-a {
 
 section.section-1 {
     display: grid;
+    margin: 110px 0 30px 0;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -250,13 +269,15 @@ ul.section-5-list {
 }
 
 .section-2-img img,
-.section-5-images img {
+.section-5-images img,
+.section-3-image,
+img {
     width: 100%;
 }
 
-.section-2-img {
+/* .section-2-img {
     width: 280px;
-}
+} */
 
 a.section-2-description-links {
     text-decoration: none;
@@ -291,6 +312,7 @@ header.third-header {
     align-items: baseline;
     position: relative;
     bottom: -28px;
+    z-index: -1;
 }
 
 ul.section-3-title {
