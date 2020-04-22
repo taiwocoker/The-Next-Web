@@ -2,7 +2,7 @@
 
 [A Clone of The Next Web Page](https://thenextweb.com/)
 
-![screenshot]()
+![screenshot](./images/snapshot.PNG)
 
 HTML & CSS Heatmap
 

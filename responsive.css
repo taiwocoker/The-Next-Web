@@ -12,6 +12,10 @@
         position: absolute;
       }  
 
+      i.fa.fa-bars {
+        display: inline-block;
+    }
+
       .header-flex-1 {
         max-width: 90%;
         margin-left: 99px;
@@ -23,9 +27,42 @@
 
       a.section-1-1-p-1 {
         color: #fff;
-        font-size: 25px;
+        font-size: 30px;
         text-decoration: none;
       }
+
+      section.section-1 {
+          margin-top: 110px;
+      }
+
+      .section-1-content-1 {
+        position: relative;
+        top: 20px;
+      }
+
+      ul.section-2-container,
+     .section-3-container,
+     ul.section-5-list {
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-gap: 15px;
+}
+
+.section-4-main-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 52px 17px;
+}
+
+.section-2-main-container,
+ .section-3-main-container, 
+ section.section-4-container, 
+ section.section-4,
+  section.section-5 {
+    width: 100%;
+    max-width: fit-content;
+    margin: auto;
+  }
 
 
 }
@@ -80,6 +117,7 @@
 
     .nav-icons {
         margin-left: auto;
+        padding-right: 26px;
         display: inline;
       }
 
@@ -169,6 +207,7 @@
   section.section-5 {
     width: 100%;
     padding: 30px 0px 30px 14px;
+    max-width: fit-content;
     margin: auto;
   }
 
