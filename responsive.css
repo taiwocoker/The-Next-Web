@@ -122,11 +122,8 @@
       }
 
     .third-nav-bar {
-        text-align: center;
         padding: 23px;
-        width: 100%;
-    
-    }
+     }
 
     ul.nav-bar-3 {
         display: none;
