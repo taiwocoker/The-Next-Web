@@ -769,6 +769,12 @@ footer {
     padding-top: 5px;
   }
 
+  ul.section-3-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: -12px;
+  }
+
   .section-2-description {
     padding-top: 0;
   }
@@ -785,6 +791,7 @@ footer {
   .section-3-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding-top: 40px;
   }
 
   .section-4-container {
