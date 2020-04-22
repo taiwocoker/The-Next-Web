@@ -244,9 +244,9 @@ section.section-4,
 section.section-5 {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    max-width: 1152px;
     padding: 50px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 h2.section-2-main-title-1 {
