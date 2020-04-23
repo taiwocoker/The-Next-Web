@@ -232,9 +232,16 @@ a.section-1-1-icons-1 {
   text-decoration: none;
 }
 
+.section-2-description {
+  padding: 0;
+}
+
+p.section-2-content {
+  padding: 0;
+  margin-top: 5px;
+}
+
 li.section-1-1-li,
-p.section-2-content,
-.section-2-description,
 li.section-2-1,
 li.section-3-list {
   padding: 5px;
@@ -626,6 +633,10 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+  .section-nav-logo {
+    display: none;
+  }
+
   header.third-header {
     display: flex;
     flex-direction: column;
@@ -657,7 +668,7 @@ footer {
 
   a.section-1-1-p-1 {
     color: #fff;
-    font-size: 30px;
+    font-size: 23px;
     text-decoration: none;
   }
 
@@ -815,7 +826,7 @@ footer {
   }
 
   .section-2-description {
-    padding-top: 0;
+    padding: 0;
   }
 
   span.section-2-span {
@@ -854,9 +865,6 @@ footer {
 
   .section-5-price {
     display: flex;
-    position: relative;
-    top: 37px;
-    left: -473px;
   }
 
   .section-2-main-container,
@@ -872,10 +880,6 @@ footer {
 
   .section-3-main-container {
     margin-top: 30px;
-  }
-
-  .section-4-header-1 {
-    padding-right: 42px;
   }
 
   .section-5-main-title {
