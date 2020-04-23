@@ -328,6 +328,7 @@ header.third-header {
   justify-content: space-between;
   align-items: baseline;
   position: relative;
+  z-index: -1;
 }
 
 ul.section-3-title {
@@ -586,13 +587,13 @@ ul.footer-list-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 40px 0;
-  background: #4d4d4d;
+  padding: 20px 0;
+  background: #1a1a1a;
 }
 
 .footer-list-content {
   color: #fff;
-  background-color: #6d6d6d;
+  background-color: #2d2d2d;
   border-radius: 50%;
   padding: 15px;
   margin: 0 14px;
@@ -604,7 +605,7 @@ a.footer-list-link {
 
 a.footer-link-2 {
   color: #9d9d9d;
-  padding: 7px;
+  padding: 6px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -612,7 +613,7 @@ a.footer-link-2 {
 .footer-legal {
   display: flex;
   flex-direction: row;
-  background-color: #2d2d2d;
+  background-color: #000;
   padding: 35px 0;
   color: #9d9d9d;
   text-align: center;
@@ -630,6 +631,7 @@ b.love {
 
 footer {
   padding: 70px 0;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 1024px) {
